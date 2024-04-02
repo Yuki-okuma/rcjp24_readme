@@ -9,8 +9,6 @@ Eventhough most of the rules are based on the RoboCup World competition Rulebook
 [@Home 2022 Rules](https://athome.robocup.org/wp-content/uploads/2022_rulebook.pdf)
 
 ## Main Goal
-The robot need to find three guests in living room and provide to the operator the guests' name and two characteristics (e.g. age, sex, color of clothes) from each guests. 
-
 The robot has to take two new guests to the living room to introduce them and offer a free place to sit.
 
 <br>
