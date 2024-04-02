@@ -37,18 +37,6 @@ The arena will be announced during the Setup Days.
 <br>
 
 ## Scenario
-You might need to repeat this task upto 3 times.
-- 
-    - It is necessary to show evidence that the guest was detected (e.g. Bounding Box).
-- Move infront of the guest.
-    - Only admited if the distance between the robot and the person is within 1.5 meters.
-- Move back to the front of the operator.
-- Provide the guest location to the operator.
-    - It is necessary to report the nearest furniture of the guest.
-- Provide the guest name to the operator.
-    - The name will be one of the provided list [List of names](./Names.pdf)
-- Provide the correct guest’s description 1 to the operator.
-- Provide the correct guest’s description 2 to the operator.
 
 - Detection
     - The robot detects the guest who arrive and enter the room.
