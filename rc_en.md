@@ -1,6 +1,6 @@
 [日本語](./rc_jp.md) | [English](./rc_en.md)
 
-# Receptionist(RC)
+# Receptionist(RC) proposal rule
 
 Eventhough most of the rules are based on the RoboCup World competition Rulebook, It will be discussed about some local rules for the RCJ2024 in the TLM.
 
@@ -19,35 +19,35 @@ System Integration, Human-Robot Interaction, Person Detection, Person Recognitio
 <br>
 
 ## Setup
-- Start Position： the robot start position will be in the specified location of the Arena near the entrance.
+- Start Position： The robot will start from a specified position near the entrance to the arena.
 - Time：Setup (5 min)，Competition Time (7 min)
-- Host：The host’s name and favorite drink will be announced before the test. The host's predefined location will be announced during the Setup Days.
+- Host：The host’s name and favorite drink will be announced before the test. The host’s predefined location will be announced during the Setup Days.
 - Guest：Both guests have a name and favorite drink. An arriving guest will step in front of the robot. Guests have to be guided to the host's predefined location to be introduced. Each of the guest will arrive separately.
 
 <br>
 
 ## Arena
-The arena will be announced during the Setup Days.
+TBD
 <!-- ※ There is no door in the entrance.  
 ※ The guest location is random and nearby to a furniture in living room.（this image represents is an example of the possible position of the guests）
 ![map](./map.png) -->
 
 <br>
 
-## Scenario
-
-- Detection
-    - The robot detects the guest who arrive and enter the room.
-- Reception
-    - The robot asks for the guest's name and favorite drink. If the robot cannot understand the name or favorite drink, the robot can ask back.
-- Introduction
-    - The robot introduces the arrived guest's name and favorite drink to the host.
-- Seating people
-    - The robot must point at a place or location where the guest can sit (an empty seat).
-- Switching Places
-    - Guests may switch places after they were seated.
+## Procedure
+- Main task（Repeat twice）
+  - Detection
+      - The robot detects the guest who arrive and enter the room.
+  - Reception
+      - The robot asks for the guest's name and favorite drink. If the robot cannot understand the name or favorite drink, the robot can ask back.
+  - Introduction
+      - The robot introduces the arrived guest's name and favorite drink to the host.
+  - Seating people
+      - The robot must point at a place or location where the guest can sit (an empty seat).
+  - Switching PlacesProcedure
+      - Guests may switch places after they were seated.
 - Bounus task
-    - The robot can earn bonus points by naming four features (e.g. clothing color, hair color, gender, age) of the first guest to the second guest.
+    - The robot can earn bonus points by naming four features※ (e.g. clothing color, hair color, gender, age) of the first guest to the second guest.
 
 When the robot interacts with a human, the robot needs to pay attention to the person interacting with it. For example, the robot can point to one person and face the other while talking or alternately gaze between two people.
 
@@ -66,11 +66,11 @@ Eventhough most of the rules are based on the RoboCup World competition Rulebook
 
 ## About characteristic (attributes)
 The characteristics to be count will be those only chosen during the TLM.
-The selected characteristics are the following.
-You can use any of the characteristics listed below.
+<!-- The selected characteristics are the following.
+You can use any of the characteristics listed below. -->
 The organization comittee will confirm characteristics that each team will be using during the last TLM the day before the task.
 
-【last year】
+【last year(Find My Mates)】
 - Age
 - Sex
 - Glass (with/without)
@@ -191,7 +191,7 @@ The highest score between the two trials will be choosen as final result.
   </tr>
   <tr>
     <td> Describe the four features of the first guest </td>
-    <td align="center"> 150 </td>
+    <td align="center"> 40x4 </td>
   </tr>
     <tr>
     <td colspan="2" align="center"> <b>Penalty</b> </td>
@@ -202,7 +202,7 @@ The highest score between the two trials will be choosen as final result.
   </tr>
   <tr>
     <td> <b>Total Score (including Bonus Task)</b> </td>
-    <td align="center"> <b>750</b> </td>
+    <td align="center"> <b>760</b> </td>
   </tr>
 </table>
 
@@ -218,8 +218,9 @@ The highest score between the two trials will be choosen as final result.
 <br>
 
 ## Preparation by each team
-- About guests
+<!-- - About guests
   - Each team should prepare two or more people in advance.  
-  If the team prepares only two people, the organization commitee will prepare one more person. 
+  If the team prepares only two people, the organization commitee will prepare one more person.  -->
 - About the referee
-  - Each team needs to choose a referee. A detail explanation will be given the day before in the TLM.
+  - Each team needs to choose a referee. 
+  <!-- A detail explanation will be given the day before in the TLM. -->
