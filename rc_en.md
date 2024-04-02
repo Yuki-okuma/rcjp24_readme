@@ -1,4 +1,4 @@
-[日本語](./rc_ja.md) | [English](./rc_en.md)
+[日本語](./rc_jp.md) | [English](./rc_en.md)
 
 # Receptionist(RC)
 
