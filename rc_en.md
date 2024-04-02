@@ -23,7 +23,7 @@ System Integration, Human-Robot Interaction, Person Detection, Person Recognitio
 ## Setup
 - Start Position： the robot start position will be in the specified location of the Arena near the entrance.
 - Time：Setup (5 min)，Competition Time (7 min)
-- Host：Host name is 〇〇
+- Host：The host’s name and favorite drink will be announced before the test. The host's predefined location will be announced during the Setup Days.
 - Guest：Both guests have a name and favorite drink. An arriving guest will step in front of the robot. Guests have to be guided to the host's predefined location to be introduced. Each of the guest will arrive separately.
 
 <br>
@@ -54,7 +54,6 @@ The arena will be announced during the Setup Days.
 When the robot interacts with a human, the robot needs to pay attention to the person interacting with it. For example, the robot can point to one person and face the other while talking or alternately gaze between two people.
 
 ※ Accepted characteristics will be those obtained only through image recognition.  
-※ The organized commitee will prepare in advance one person as a guest.
 
 <br>
 
@@ -63,8 +62,7 @@ Eventhough most of the rules are based on the RoboCup World competition Rulebook
 1. Competition time is 7 minutes.
 2. Distance between the robot and the person should be within 1.5 meteer.
 3. The accepted characteristics will be those obtained only through image recognition.
-4. It is nessesary to show evidence when robot detects a human(e.g. Bounding Box).
-5. If all guests does not have same characteristics, it is allowed to report those characteristics to the operator.
+4. It is nessesary to show evidence when robot detects an empty seat.
 
 <br>
 
@@ -104,26 +102,18 @@ On one hand using Deus Ex Machina deducts points from your original score. On th
     <th> <b>Bypassing<b> </th>
   </tr>
   <tr>
-    <td> Detect a guest </td>
+    <td> Human Identification </td>
     <td>
       <ul>
-        <li> Person has to wave to the robot in order to be found. </li>
+        <li> Identify human(s) by using marker(s) </li>
       </ul> 
     </td>
   </tr>
   <tr>
-    <td> Detect a guest </td>
+    <td> Empty Seats Detection </td>
     <td>
       <ul>
-        <li> Person has to approach the robot. </li>
-      </ul> 
-    </td>
-  </tr>
-   <tr>
-    <td> Detect the guest location </td>
-    <td>
-      <ul>
-        <li> Person has to tell the robot where he/she is standing. </li>
+        <li> 	Detect empty seats by placing markers on them </li>
       </ul> 
     </td>
   </tr>
